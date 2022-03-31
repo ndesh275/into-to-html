@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing2</title>
+    
+    <!--Link To CSS-->
+    <link rel="stylesheet" href="movie.css">
+
+    <!--Fav Icon-->
+    <link rel="shortcut icon" href="cute.jpg" type="image/x-icon">
+
+    <!--Box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!--Header-->
+    <header>
+        <!--Nav-->
+        <div class="nav container">
+            <!--logo-------->
+            <a href="movie.html" class="logo">
+                Movie<span>Vel</span>
+            </a>
+
+            <!--Search Box-------->
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Search movie">
+                <i class='bx bx-search'></i>
+            </div>
+            
+            <!--User--------->
+            <a href="#" class="user">
+                <img src="logo.jpg" alt="Cartoon" class="user-img" />
+            </a>
+
+            <!--NavBar-->
+            <div class="navbar">
+                <a href="movie.html" class="nav-link nav-active">
+                    <i class='bx bxs-home-heart' ></i>
+                    <span class="nav-link-title">Home</span>    
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bxs-hot' ></i>
+                    <span class="nav-link-title">Trending</span>    
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-compass' ></i>
+                    <span class="nav-link-title">Explore</span>    
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-tv' ></i>
+                    <span class="nav-link-title">Movie</span>    
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-heart' ></i>
+                    <span class="nav-link-title">Favourite</span>    
+                </a>
+            </div>
+        </div>
+
+    </header>
+
+    <!--Play Movie Container-->
+    <div class="play-container container">
+        <!--Play Image-->
+        <img src="sing.jpg" alt="" class="play-img">
+        
+
+        <!--Play Text-->
+        <div class="play-text">
+            <h2 style="color: white; "> Sing2:Where Will Your Dreams Take You? </h2>
+            
+            <!--ratings-->
+            <div class="rating" style="color: white; margin-top: 20px;">
+                <i class='bx bxs-star' style="color:hsl(37,94%,57%) ;"></i>
+                <i class='bx bxs-star' style="color:hsl(37,94%,57%);"></i>
+                <i class='bx bxs-star' style="color:hsl(37,94%,57%);"></i>
+                <i class='bx bxs-star' style="color:hsl(37,94%,57%);"></i>
+                <i class='bx bxs-star-half' style="color:hsl(37,94%,57%);"></i>
+
+            </div>
+
+            <!--Tags-->
+            <div class="tags">
+                <span style="color: white;">Action</span>
+                <span style="color: white;">Adventure</span>
+                <span style="color: white;">4K</span>
+            </div>
+
+            <!--Trailer Button-->
+            <a href="#" class="watch-btn">
+                <i class='bx bx-right-arrow' ></i>
+                <span>Watch the trailer</span>
+
+            </a>
+        </div>
+
+        <!--Play Btn-->
+        <i class='bx bx-right-arrow play-movie'></i>
+        
+        <!--Vedio Container-->
+        <div class="vedio-container">
+            
+            <!--Vedio-Box-->
+            <div class="vedio-box">
+                <video id="myvedio"src="https://www.youtube.com/watch?v=EPZu5MA2uqI&t=4s"controls ></video>
+                <!--Close Vedio Icon-->
+                <i class='bx bx-x close-vedio'></i>
+            </div>
+        </div>
+    </div>
+
+    <!--Copyright-->
+    <div class="copyright">
+        <p>&#169; Brian Githua's Website. All Right Reserved</p>
+    </div>
+       
+
+    <!--Link To JS-->
+    <script src="movie.js"></script>
+    
+</body>
+</html>

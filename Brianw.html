@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Login And Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="Brianw.css">
+</head>
+<body>
+
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toogle-btn" onclick="login()">Log in</button>
+                <button type="button" class="toogle-btn" onclick="register()">Register</button>
+
+
+
+            </div>
+            <div class="social-icons">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon</a>  
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon</a>  
+          <a href="#"><ion-icon name="logo-twitter"></ion-icon</a>  
+          <a href="#"><ion-icon name="logo-google"></ion-icon</a>  
+          <a href="#"><ion-icon name="logo-skype"></ion-icon</a>  
+
+
+
+        </div>
+        <form id="login" class="input-gruop">
+            <input type="text" class="input-field" placeholder="User id" required>
+            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <input type="checkbox"class="check-box"><span>Remember Password</span>
+
+
+        </form>
+         <form id="register" class="input-gruop">
+            <input type="text" class="input-field" placeholder="User id" required>
+            <input type="email" class="input-field" placeholder="Email id" required>
+            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <input type="checkbox"class="check-box"><span>I agree to the terms & conditions</span>
+
+
+        </form>
+
+        <button type="submit" class="submit-btn">Register</button>
+
+
+        </div>
+
+    </div>
+    <script
+        src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js">
+        var x = document.getElementBtId("login");
+         var y = document.getElementBtId("register");
+          var z = document.getElementBtId("btn");
+
+          function register(){
+            x.style.left = "400px"
+             y.style.left = "50px"
+              z.style.left = "110px"
+
+
+        function login(){
+            x.style.left = "50px"
+             y.style.left = "450px"
+              z.style.left = "0px"
+
+
+
+
+          }
+    </script>
+
+
+</body>
+</html>
